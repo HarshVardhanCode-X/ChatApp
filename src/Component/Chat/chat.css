@@ -16,3 +16,8 @@
 .chat-section::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+@media (min-width: 1900px){
+  .chat-section{
+    height: 550px;
+  }
+} 

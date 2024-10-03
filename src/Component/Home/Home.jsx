@@ -36,7 +36,7 @@ function Home() {
 
   const handleLogout = () => {
     signOut(auth).then(() => {
-      navigate('/Login');
+      navigate('/');
     }).catch((error) => {
       console.error("Error logging out:", error);
     });

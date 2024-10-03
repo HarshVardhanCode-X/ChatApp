@@ -69,9 +69,9 @@ function App() {
         <>
             <div>
                 <Routes>
-                    <Route path='/' element={<><Home /></>} >
+                    <Route path='/Home' element={<><Home /></>} >
                     </Route>
-                    <Route path='/Login' element={<><Login /></>} >
+                    <Route path='/' element={<><Login /></>} >
                     </Route>
                 </Routes>
             </div>
