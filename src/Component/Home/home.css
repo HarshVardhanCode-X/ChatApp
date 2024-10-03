@@ -1,0 +1,30 @@
+section .input-bar{
+    position: relative;
+}
+section .input-bar .send-btn{
+    position: absolute;
+    right: 1%;
+}
+section .input-bar .attach{
+    position: absolute;
+    left: 1.2%;
+}
+
+@media all and (max-width:650px) {
+    section .input-bar .send-btn{
+        background: transparent !important;
+    }
+
+    .container .login .login-btn{
+        display: none;
+    } 
+
+    .container .wrapper .heading-text h1{
+        font-size: 25px;
+    }
+    .container .wrapper .heading-img img{
+        width: 40px;
+    }
+
+
+}
