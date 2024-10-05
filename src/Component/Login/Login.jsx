@@ -16,7 +16,7 @@ function Login() {
         try {
             const result = await signInWithPopup(auth, provider);
             setUser(result.user);
-            window.location.assign("/");
+            window.location.assign("/Home");
             console.log("result",result);
             
         } catch (error) {
@@ -34,7 +34,7 @@ function Login() {
             const user = result.user;
             console.log("GitHub sign-in successful:", user);
             setUser(user);
-            window.location.assign("/");
+            window.location.assign("/Home");
         } catch (error) {
             console.error("Error signing in with GitHub", error);
         }
