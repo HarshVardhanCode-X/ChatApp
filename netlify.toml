@@ -1,5 +1,6 @@
 [build]
-publish = "build"  # or your output directory after build (e.g., "dist" for Vue.js)
+publish = "dist"  # Vite outputs build to "dist"
+command = "npm run build"
 
 [[redirects]]
 from = "/*"
