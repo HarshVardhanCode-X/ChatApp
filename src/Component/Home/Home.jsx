@@ -83,7 +83,7 @@ function Home() {
 
 
   return (
-    <div className="min-h-screen bg-[#171717] flex flex-col justify-start items-center p-1 max-w-full">
+    <div className="biggestOne min-h-screen bg-[#171717] flex flex-col justify-start items-center p-1 max-w-full">
       <div className='container flex justify-around gap-10 items-center max-w-full'>
         <div className='wrapper flex justify-center items-center gap-2 p-6 max-w-full'>
           <div className='heading-text'>
